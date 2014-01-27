@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical"
+	>
+<LinearLayout 
+	android:layout_width="fill_parent" android:layout_height="0dp" 
+	android:orientation="vertical" android:id="@+id/RSMainLayout"
+	android:layout_weight="7"
+	android:clickable="true"
+	android:gravity="center_vertical" >
+	
+    <ImageView  
+	android:id="@+id/levelTitle"
+	android:src="@drawable/ringtonelocked"
+	android:layout_width="fill_parent" 
+	android:layout_marginBottom="10dip"
+	android:layout_height="wrap_content"/>
+    
+				<TextView android:layout_margin="3dp" android:textStyle="bold"
+				android:textColor="#ffffff" android:textSize="30dp"
+				android:shadowColor="#000000" android:shadowDx="0"
+				android:shadowDy="5" android:shadowRadius="3.0"
+				android:clickable="false"
+				android:capitalize="characters" android:text="RESULTS:" 
+				android:gravity="center_horizontal" android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"/>
+				
+			<TextView android:id="@+id/RSEnemiesDefeatedTitle"
+				android:layout_margin="3dp" android:textStyle="bold"
+				android:textColor="#ffffff" android:textSize="17dp"
+				android:shadowColor="#000000" android:shadowDx="0"
+				android:shadowDy="5" android:shadowRadius="3.0"
+				android:clickable="false"
+				android:capitalize="characters" android:text="Notes Rescued:"
+				android:gravity="center_horizontal" android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"/>
+			<TextView android:id="@+id/RSEnemiesDefeated"
+				android:layout_marginBottom="6dp" android:textStyle="bold"
+				android:textColor="#ffffff" android:textSize="25dp"
+				android:shadowColor="#000000" android:shadowDx="0"
+				android:clickable="false"
+				android:shadowDy="5" android:shadowRadius="3.0"
+				android:capitalize="characters" android:text=""	
+				android:gravity="center_horizontal" android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"/>
+				
+			<TextView android:id="@+id/RSSongPointsTitle"
+				android:layout_margin="3dp" android:textStyle="bold"
+				android:textColor="#ffffff" android:textSize="17dp"
+				android:shadowColor="#000000" android:shadowDx="0"
+				android:shadowDy="5" android:shadowRadius="3.0"
+				android:clickable="false"
+				android:capitalize="characters" android:text="Percentage of the Song Rescued:" 
+				android:gravity="center_horizontal" android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" />
+			<TextView android:id="@+id/RSSongPoints"
+				android:layout_marginBottom="20dip" android:textStyle="bold"
+				android:textColor="#ffffff" android:textSize="25dp"
+				android:shadowColor="#000000" android:shadowDx="0"
+				android:shadowDy="5" android:shadowRadius="3.0"
+				android:clickable="false"
+				android:capitalize="characters" android:text="0"
+				android:gravity="center_horizontal" android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" />
+			
+			<TextView android:id="@+id/ChallengeComplete"
+				android:layout_margin="6dp" android:textStyle="bold"
+				android:textColor="#ffffff" android:textSize="40dp"
+				android:shadowColor="#000000" android:shadowDx="0"
+				android:visibility="gone"
+				android:clickable="false"
+				android:shadowDy="5" android:shadowRadius="3.0"
+				android:capitalize="characters" android:text="Challenge\nComplete!" 
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal" android:layout_width="fill_parent"/>
+			
+				
+			<TextView android:id="@+id/RSSongLevelTitle"
+				android:layout_margin="3dp" android:textStyle="bold"
+				android:textColor="#ffffff" android:textSize="17dp"
+				android:shadowColor="#000000" android:shadowDx="0"
+				android:shadowDy="5" android:shadowRadius="3.0"
+				android:clickable="false"
+				android:capitalize="characters" android:text="Song Level:"
+				android:gravity="center_horizontal" android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"/>
+			<TextView android:id="@+id/RSSongLevel"
+				android:layout_marginBottom="6dp" android:textStyle="bold"
+				android:textColor="#ffffff" android:textSize="25dp"
+				android:shadowColor="#000000" android:shadowDx="0"
+				android:clickable="false"
+				android:shadowDy="5" android:shadowRadius="3.0"
+				android:capitalize="characters" android:text="0" 
+				android:gravity="center_horizontal" android:layout_width="fill_parent"
+				android:layout_height="wrap_content"/>
+				
+			<TextView android:id="@+id/RSUpgradePointsTotalTitle"
+				android:layout_margin="3dp" android:textStyle="bold"
+				android:textColor="#ffffff" android:textSize="17dp"
+				android:shadowColor="#000000" android:shadowDx="0"
+				android:clickable="false"
+				android:shadowDy="5" android:shadowRadius="3.0"
+				android:capitalize="characters" android:text="Total Notes Rescued:"
+				android:gravity="center_horizontal" android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" />
+			<TextView android:id="@+id/RSUpgradePointsTotal"
+				android:layout_marginBottom="6dp" android:textStyle="bold"
+				android:textColor="#ffffff" android:textSize="25dp"
+				android:shadowColor="#000000" android:shadowDx="0"
+				android:clickable="false"
+				android:shadowDy="5" android:shadowRadius="3.0"
+				android:capitalize="characters" android:text="0" 
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal" android:layout_width="fill_parent"/>
+			<TextView android:id="@+id/doneMessage"
+				android:layout_margin="6dp" android:textStyle="bold"
+				android:textColor="#ffffff" android:textSize="25dp"
+				android:shadowColor="#000000" android:shadowDx="0"
+				android:clickable="false"
+				android:shadowDy="5" android:shadowRadius="3.0"
+				android:capitalize="characters" android:text="Tap screen when done!" 
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal" android:layout_width="fill_parent"/>
+						
+		</LinearLayout>
+
+        <com.google.ads.AdView android:id="@+id/adView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:gravity="center_horizontal"
+                        android:layout_weight="1"
+                        ads:adUnitId="a151c0ed418e0d2"
+                        ads:adSize="BANNER"
+                        ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
+                        ads:loadAdOnCreate="true"/>
+
+</LinearLayout>

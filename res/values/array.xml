@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string-array name="levels">
+        <item>World 1</item>
+        <item>World 2</item>
+        <item>World 3</item>
+    </string-array>
+    
+    <string-array name="levels_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <string-array name="resolution">
+        <item>Low</item>
+        <item>High</item>
+    </string-array>
+    
+    <string-array name="resolution_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string-array name="difficulty">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+    
+    <string-array name="difficulty_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

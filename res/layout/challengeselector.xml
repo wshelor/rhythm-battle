@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+	
+<Gallery android:id="@+id/gallery"
+	android:layout_marginTop="3dip"
+	android:layout_marginBottom="3dip"
+     android:layout_weight="2"
+    android:layout_width="fill_parent"
+    android:layout_height="0px"/>
+
+<Button android:text="" 
+	android:id="@+id/bionicButton"
+	android:layout_width="fill_parent" 
+	android:layout_weight="1"
+	android:layout_marginTop="3dip"
+	android:layout_marginBottom="3dip"
+	android:textColor="#0232cc"
+	android:layout_height="0px"/>
+
+<Button android:text="" 
+	android:id="@+id/sonicButton"
+	android:layout_width="fill_parent" 
+	android:layout_weight="1"
+	android:layout_marginTop="3dip"
+	android:layout_marginBottom="3dip"
+	android:textColor="#0232cc"
+	android:layout_height="0px"/>
+
+<Button android:text="" 
+	android:id="@+id/harmonicButton"
+	android:layout_width="fill_parent" 
+	android:layout_marginTop="3dip"
+	android:layout_marginBottom="3dip"
+	android:layout_weight="1"
+	android:textColor="#0232cc"
+	android:layout_height="0px"/>
+
+<Button android:text="" 
+	android:id="@+id/ringtoneButton"
+	android:layout_width="fill_parent" 
+	android:layout_marginTop="3dip"
+	android:layout_marginBottom="3dip"
+	android:layout_weight=".7"
+	android:textColor="#0232cc"
+	android:layout_height="0px"/>
+
+
+        <com.google.ads.AdView android:id="@+id/adView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0px"
+                        android:gravity="center_horizontal"
+                        android:layout_weight=".7"
+                        ads:adUnitId="a151c0ed418e0d2"
+                        ads:adSize="BANNER"
+                        ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
+                        ads:loadAdOnCreate="true"/>
+
+</LinearLayout>
+    

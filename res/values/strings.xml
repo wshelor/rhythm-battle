@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rhythm Battle</string>
+    <string name="btnChallenge">/?/?/?</string>
+    <string name="btnStart">New Game</string>
+    
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center"
+	android:background="@drawable/background">
+		
+	<LinearLayout android:orientation="vertical" android:layout_width="wrap_content"
+		android:gravity="center_horizontal"
+		android:layout_height="wrap_content">
+		
+		<requestFocus /> 
+		
+		<TextView android:paddingBottom="180dp" android:textColor="#ffffff"
+			android:gravity="center_horizontal" android:text=""
+			android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+
+		<TextView android:textColor="@color/menu_text"
+			android:gravity="center_horizontal" android:text="START GAME"
+			android:textStyle="bold" android:id="@+id/btnStartGame"
+			android:textSize="16sp" android:paddingTop="13dp" android:paddingBottom="13dp"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:shadowColor="#000000"
+			android:focusable="true"
+			android:shadowDx="0"
+			android:shadowDy="5"
+			android:shadowRadius="3.0">
+				<requestFocus /> 
+			</TextView>
+			
+		<TextView android:textColor="@color/menu_text"
+			android:gravity="center_horizontal" android:text="UPGRADES"
+			android:textStyle="bold" 
+			android:id="@+id/btnUpgrades"
+			android:textSize="16sp" 
+			android:paddingTop="13dp" 
+			android:paddingBottom="13dp"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:shadowColor="#000000"
+			android:focusable="true"
+			android:shadowDx="0"
+			android:shadowDy="5"
+			android:shadowRadius="3.0">
+			</TextView>
+
+				<TextView android:textColor="@color/menu_text"
+			android:gravity="center_horizontal" android:text=" ???"
+			android:textStyle="bold" 
+			android:id="@+id/btnChallenge"
+			android:textSize="16sp" 
+			android:paddingTop="13dp" 
+			android:paddingBottom="13dp"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:shadowColor="#000000"
+			android:focusable="true"
+			android:shadowDx="0"
+			android:shadowDy="5"
+			android:shadowRadius="3.0">
+			</TextView>
+								
+		<TextView android:textColor="@color/menu_text"
+			android:gravity="center_horizontal" android:text="How To Play"
+			android:textStyle="bold" android:id="@+id/btnHelp"
+			android:textSize="16sp" android:paddingTop="13dp" android:paddingBottom="13dp"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:shadowColor="#000000"
+			android:focusable="true"
+			android:shadowDx="0"
+			android:shadowDy="5"
+			android:shadowRadius="3.0">
+			</TextView>
+			
+		<TextView android:textColor="@color/menu_text"
+			android:gravity="center_horizontal" android:text="CREDITS"
+			android:textStyle="bold" android:id="@+id/btnAbout"
+			android:textSize="16sp" android:paddingTop="13dp" android:paddingBottom="13dp"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:shadowColor="#000000"
+			android:focusable="true"
+			android:shadowDx="0"
+			android:shadowDy="5"
+			android:shadowRadius="3.0">
+			</TextView>
+			
+		<TextView android:textColor="@color/menu_text"
+			android:gravity="center_horizontal" android:text="EXIT"
+			android:textStyle="bold" android:id="@+id/btnExit"
+			android:textSize="16sp" android:paddingTop="13dp" android:paddingBottom="13dp"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:shadowColor="#000000"
+			android:focusable="true"
+			android:shadowDx="0"
+			android:shadowDy="5"
+			android:shadowRadius="3.0">
+			</TextView>
+
+	</LinearLayout>
+
+</LinearLayout>
